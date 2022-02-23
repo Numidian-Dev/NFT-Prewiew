@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    background-color: hsl(217, 54%, 11%);
+    place-content: end center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Outfit";
+}
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.card {
+    background-color: hsl(216, 50%, 16%);
+    width: 20%;
+    height: 525px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+        rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.card img {
+    width: 90%;
+    display: block;
+    margin: auto;
+    border-radius: 7px;
+    margin-top: 15px;
+}
+.card h3 {
+    color: white;
+    margin: 15px;
+}
+
+.card p {
+    margin: 0px 0px 15px 15px;
+    font-size: 15px;
+    color: hsl(215, 51%, 70%);
+}
+.info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info .eth {
+    color: hsl(178, 100%, 50%);
+}
+.eth i {
+    display: inline-block;
+    align-self: center;
+    position: relative;
+    top: 3.5px;
+}
+.info .date {
+    margin-right: 20px;
+}
+.date i {
+    display: inline-block;
+    align-self: center;
+    position: relative;
+    top: 3.5px;
+}
+
+hr {
+    border-color: hsl(215, 51%, 70%);
+    width: 90%;
+
+    margin: 0 auto;
+}
+
+.credit img {
+    display: inline-block;
+    align-self: center;
+    position: relative;
+    top: 10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+    border: solid 1.5px white;
+}
+.name {
+    color: white;
+}
+@media screen and (max-width: 376px) {
+    .card {
+        width: 90%;
+        height: 550px;
+    }
+}
